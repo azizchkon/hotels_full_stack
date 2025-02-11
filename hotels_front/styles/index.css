@@ -1,0 +1,141 @@
+#slider {
+      position: relative;
+      z-index: 1;
+      margin-top: 0;
+      height: 100vh;
+    }
+    
+    .carousel-inner {
+      height: 100%;
+    }
+    
+    .carousel-item {
+      height: 100vh;
+    }
+    
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+      bottom: 20%;
+    }
+    
+    .caption-content {
+      border: 2px solid #fff; 
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .caption-content h5 {
+      margin: 0;
+    }
+    
+    .caption-content p {
+      margin: 5px 0 0;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 5%;
+    }
+    
+    @media (max-width: 768px) {
+      .carousel-caption h5 {
+        font-size: 16px;
+      }
+    }
+    .reason {
+      display: inline-block;
+      margin: 20px;
+      padding: 30px;
+      border: 2px solid #ddd; /* Ajout d'une bordure grise */
+      border-radius: 10px;
+      width: 250px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .reason:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .reasons {
+      text-align: center; 
+      padding: 60px 20px;
+      background-color: #f9f9f9;
+    }
+    
+    .reasons h2 {
+      margin-top: 0;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .reason .icon {
+      font-size: 3.5rem;
+      color: #000; 
+      margin-bottom: 15px;
+    }
+    
+    .reason h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .reason p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+  }
+  
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .footer-item {
+      flex: 1;
+  }
+  
+  .footer-item i {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  
+  .footer-links,
+  .social-media {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .footer-links a,
+  .social-media a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  
+  .footer-links img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+  }
+  

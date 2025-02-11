@@ -1,0 +1,392 @@
+.image-section {
+    background-image: url('/images/ad.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-section h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .image-section h1 span {
+    transition: color 0.3s ease;
+  }
+
+  .image-section h1:hover {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  }
+  .hotel-main-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+
+  .section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #3498db;
+  }
+  .cantainer {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #090a0b;
+    color: white;
+}
+
+thead tr th {
+    padding: 12px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.2s ease-in-out;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    padding: 12px;
+    color: #333;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    flex: 1;
+}
+
+.footer-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links,
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a,
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .hotels {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  
+  .error-message, .no-hotels {
+    text-align: center;
+    color: #d9534f;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .hotels-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hotel-card {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hotel-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .hotel-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .hotel-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .stars {
+    color: #f1c40f;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .hotel-price {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .hotel-location {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .details-button, .reserve-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .details-button {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .details-button:hover {
+    background: #138496;
+  }
+  
+  .reserve-button {
+    background: #28a745;
+    color: white;
+  }
+  
+  .reserve-button:hover {
+    background: #218838;
+  }
+  
+  @media (max-width: 1024px) {
+    .hotel-card {
+      flex: 1 1 calc(33.33% - 20px); 
+      max-width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hotel-card {
+      flex: 1 1 calc(50% - 20px); 
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .hotel-card {
+      flex: 1 1 100%; 
+      max-width: 100%;
+    }
+  }
+  
+  .hotel-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .hotel-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .hotel-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .stars {
+    color: #f1c40f;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .hotel-price {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .hotel-location {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .details-button, .reserve-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .details-button {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .details-button:hover {
+    background: #138496;
+  }
